@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "slug": "phonikud_tts",
   "description": "Expose Phonikud as a TTS HTTP service for Home Assistant",
+  "url": "https://github.com/meirlo/phonikud-tts-ha-addon",
   "arch": ["amd64", "armv7", "armhf", "arm64", "aarch64", "i386"],
   "startup": "services",
   "boot": "auto",
