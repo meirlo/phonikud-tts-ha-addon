@@ -1,0 +1,9 @@
+{
+  "name": "phonikud-tts-addon",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "tmp": "^0.2.1"
+  }
+}

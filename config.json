@@ -1,0 +1,18 @@
+{
+  "name": "Phonikud TTS",
+  "version": "0.1.0",
+  "slug": "phonikud_tts",
+  "description": "Expose Phonikud as a TTS HTTP service for Home Assistant",
+  "arch": ["amd64", "armv7", "armhf", "arm64", "aarch64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "5000/tcp": 5000
+  },
+  "map": [],
+  "options": {},
+  "schema": {},
+  "host_network": false,
+  "webui": "http://[HOST]:5000",
+  "ingress": false
+}
